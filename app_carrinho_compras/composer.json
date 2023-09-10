@@ -1,0 +1,21 @@
+{
+    "name": "positivo/app_carrinho_compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Positivo\\AppCarrinhoCompras\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedito Magalhães",
+            "email": "rustic4225@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\" : "src/"
+        }
+    }
+}
