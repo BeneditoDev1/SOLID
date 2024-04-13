@@ -1,0 +1,21 @@
+{
+    "name": "benedito/app_carrinho_compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Benedito\\AppCarrinhoCompras\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedito",
+            "email": "benmorrow1799@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "src\\": "src/"
+        }
+    }
+}

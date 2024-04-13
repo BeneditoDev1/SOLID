@@ -4,6 +4,8 @@ require __Dir__."/vendor/autoload.php";
 
 use App\CarrinhoCompra;
 
+echo '<h1>SEM SRP</h1>';
+
 $carrinho1 = new CarrinhoCompra();
 
 print_r($carrinho1->exibirItens());
