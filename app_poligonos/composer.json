@@ -1,0 +1,16 @@
+{
+    "name": "benedito/app_poligonos",
+    "autoload": {
+        "psr-4": {
+            "Benedito\\AppPoligonos\\": "src/",
+            "src\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedito Magalhães",
+            "email": "bencaceres1799@gmail.com"
+        }
+    ],
+    "require": {}
+}
