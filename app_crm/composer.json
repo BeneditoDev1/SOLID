@@ -1,0 +1,16 @@
+{
+    "name": "benedito/app_crm",
+    "autoload": {
+        "psr-4": {
+            "Benedito\\AppCrm\\": "src/",
+            "src\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedito Magalhães",
+            "email": "bencaceres1799@gmail.com"
+        }
+    ],
+    "require": {}
+}
