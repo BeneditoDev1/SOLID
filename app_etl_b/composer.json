@@ -1,0 +1,20 @@
+{
+    "name": "benedito/app_etl",
+    "autoload": {
+        "psr-4": {
+            "Benedito\\AppEtl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benedito Magalhães",
+            "email": "bencaceres1799@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
+}
