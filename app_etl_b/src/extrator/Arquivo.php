@@ -20,7 +20,7 @@ class Arquivo{
     public function getDados(): array {
         return $this->dados;
     }
-
+    /*
     public function lerArquivoCSV(string $caminho): void {
         
         $handle = fopen($caminho, 'r');
@@ -43,5 +43,5 @@ class Arquivo{
                 $linha, 41, 50
             );
         }
-    }
+    }*/
 }

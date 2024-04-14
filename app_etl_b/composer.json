@@ -2,7 +2,8 @@
     "name": "benedito/app_etl",
     "autoload": {
         "psr-4": {
-            "Benedito\\AppEtl\\": "src/"
+            "Benedito\\AppEtl\\": "src/",
+            "src\\": "src/"
         }
     },
     "authors": [
@@ -11,10 +12,5 @@
             "email": "bencaceres1799@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "src\\" : "src/"
-        }
-    }
+    "require": {}
 }

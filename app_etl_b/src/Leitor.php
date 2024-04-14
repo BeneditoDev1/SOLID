@@ -4,6 +4,9 @@ namespace src;
 
 use src\Arquivo;
 
+use src\extrator;
+
+
 class Leitor{
     private $diretorio;
     private $arquivo;
@@ -25,7 +28,23 @@ class Leitor{
     } 
     
     public function lerArquivo(): array{
+
+        $caminho = $this->getDiretorio().'/'.$this->getArquivo();
+        $extensao = explode('.', $this->getArquivo());
+
+        $classe = '\src\extrator\\' . ucfirst($extensao[1]);
+
+        return call_user_func_array(
+            [
+                new $classe,    
+                'lerArquivo'
+            ],
+            [
+                $caminho
+            ]
+        );
         
+        /*
         $caminho = $this->getDiretorio().'/'.$this->getArquivo();
         echo $caminho;
 
@@ -39,6 +58,6 @@ class Leitor{
             $arquivo->lerArquivoTXT($caminho);
         }
 
-        return $arquivo->getDados();
+        return $arquivo->getDados();*/
     }
 }
